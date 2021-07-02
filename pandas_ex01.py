@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-df=pd.read_csv('hello.csv')
+df = pd.read_csv('hello.csv')  # "./hello.csv"이런 형식으로 경로지정 가능
 print(df)
 
 print(df.head(1))
